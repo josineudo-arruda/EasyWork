@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body {
+    background-color: #141414;
+    color: 	rgb(240,255,255);
+}
+strong {
+    font-size: 11pt;
+    margin-top: 10px;
+}
+p {
+    font-size: 8pt;
+    margin-top: 6px;
+}
+div#principal-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.596);
+    border-radius: 2em;
+    padding: 30px;
+    margin-top: 20%;
+}
+div.logo-name img {
+    width: 100%;
+}
+div.input {
+    width: 100%;
+}
+div.input input { /*transformando o input*/
+    background: transparent;
+    border: 0;
+    border-bottom: white solid 1px;
+    color: white;
+    outline: 0; /*tira a linha do input*/
+}
+a {
+    color: white;
+}
+div.input a:hover{
+    color: rgb(75, 167, 196);
+    text-decoration: underline;
+    transition: 0.3s;
+}
+div.input button {
+    background: transparent;
+    border: white solid 1px;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 0.3em;
+}
+div.input button:hover {
+    background-color: #323232;
+}
